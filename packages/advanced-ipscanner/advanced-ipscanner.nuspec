@@ -8,8 +8,8 @@
     <title>Advanced-IP Scanner</title>
     <authors>Famatech</authors>
     <projectUrl>https://www.advanced-ip-scanner.com</projectUrl>
-    <iconUrl>https://705167.ssl.1c-bitrix-cdn.ru/images/aips/aips_logo.png</iconUrl>
-    <copyright>Copyright (c) 2002-2017 Famatech</copyright>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/4f04e1f7cd3e90e2d61881c85b5d8ad1f64feece/packages/icons/advanced-ip-scanner-icon.png</iconUrl>
+    <copyright>Copyright © 1999-2022 Famatech Corp. All rights reserved.</copyright>
     <licenseUrl>https://www.advanced-ip-scanner.com/help/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.advanced-ip-scanner.com/help/</docsUrl>
