@@ -3,7 +3,7 @@
   <metadata>
     <id>advanced-ipscanner</id>
     <version>2.5.4594.1</version>
-    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/advancedipscanner</packageSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/advanced-ipscanner</packageSourceUrl>
     <owners>boubou</owners>
     <title>Advanced-IP Scanner</title>
     <authors>Famatech</authors>
