@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>snmpwalk-cli</id>
+    <version>1.1.2</version>
+    <title>SNMPWalk CLI</title>
+    <authors>boubou</authors>
+    <owners>EZ5 Systems Ltd</owners>
+    <licenseUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</licenseUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SNMP is a unified protocol of network monitoring and network device management. All active network devices support SNMP. Besides that, SNMP is supported by major operational systems and a large number of network applications.
+
+SnmpWalk allows you to detect a set of variables that are available for reading on an individual device. You can obtain a full list or just part. By analyzing the results of a network device scan obtained with SnmpWalk, you can develop a list of supported MIBs and, in this way, obtain full descriptions of variables and possible values. Besides that, MIB documents contain information about SNMP variables that are available only for writing. After analyzing information retrieved with SnmpWalk from hardware or software SNMP sources, you can use SnmpSet and SnmpGet tools to change and obtain values.
+
+The value of SnmpWalk is not limited to only the SNMP analysis of supported features. This tool can efficiently get SNMP tables and read whole sections of variables. This mainly refers to tables that are often used for presenting statistical and status information.
+
+SnmpWalk is a command-line tool, which makes possible its use in scripts. This tool supports modern IPv6 in addition to the standard IPv4. Moreover, SnmpWalk allows you to use a simple version of SNMPv1/SNMPv2c and also supports a safe version of SNMPv3.
+
+Features
+Supports SNMP v1/v2c and SNMPv3
+Supports IPv4 and IPv6
+Full or partial SNMP variables tree
+Exports to CSV file
+Command line interface (CLI)
+Any type of SNMP variables
+Various Auth and Privacy protocols
+Windows XP-10 compatible
+Windows Server 2003-2019 compatible
+Parameters
+SnmpWalk.exe [-q] -r:host [-p:port] [-t:timeout] [-v:version] [-c:community]
+         [-ei:engine_id] [-sn:sec_name] [-ap:auth_proto] [-aw:auth_passwd]
+         [-pp:priv_proto] [-pw:priv_passwd] [-ce:cont_engine] [-cn:cont_name]
+         [-os:start_oid] [-op:stop_oid] [-csv]
+
+   -q               Quiet mode (suppress header; print variable values only).
+   -r:host          Name or network address (IPv4/IPv6) of remote host.
+   -p:port          SNMP port number on remote host. Default: 161
+   -t:timeout       SNMP timeout in seconds (1-600). Default: 5
+   -v:version       SNMP version. Supported version: 1, 2c or 3. Default: 1
+   -c:community     SNMP community string for SNMP v1/v2c. Default: public
+   -ei:engine_id    Engine ID. Format: hexadecimal string. (SNMPv3).
+   -sn:sec_name     SNMP security name for SNMPv3.
+   -ap:auth_proto   Authentication protocol. Supported: MD5, SHA (SNMPv3).
+   -aw:auth_passwd  Authentication password (SNMPv3).
+   -pp:priv_proto   Privacy protocol. Supported: DES, IDEA, AES128, AES192,
+                    AES256, 3DES (SNMPv3).
+   -pw:priv_passwd  Privacy password (SNMPv3).
+   -cn:cont_name    Context name. (SNMPv3)
+   -ce:cont_engine  Context engine. Format: hexadecimal string. (SNMPv3)
+   -os:start_oid    Object ID (OID) of first SNMP variable to walk. Default:.1
+   -op:stop_oid     Object ID (OID) of last SNMP variable to walk.
+                    Default: walk to the very last variable.
+   -csv             Output in CSV (Comma Separated Values) format.
+Examples
+SnmpWalk.exe -r:MainRouter -csv > output_file.csv
+SnmpWalk.exe -r:10.0.0.1 -t:10 -c:"admin_rw" -os:.1.3.6.1.2.1.1
+SnmpWalk.exe -r:"::1" -v:3 -sn:SomeName -ap:MD5 -aw:SomeAuthPass -pp:DES -pw:SomePrivPass
+              -os:.1.3.6.1.2.1 -op:.1.3.6.1.2.65535 -q</description>
+    <summary>SnmpWalk scans a device to list all variables that are available for reading.</summary>
+    <releaseNotes>https://ezfive.com/news/</releaseNotes>
+    <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
+    <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
+    <projectUrl>https://ezfive.com/</projectUrl>
+    <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpwalk.portable</packageSourceUrl>
+    <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</docsUrl>
+    <bugTrackerUrl>https://support.ezfive.com/portal/newticket</bugTrackerUrl>
+    </metadata>
+</package>
