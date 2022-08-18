@@ -65,6 +65,6 @@ SnmpWalk.exe -r:"::1" -v:3 -sn:SomeName -ap:MD5 -aw:SomeAuthPass -pp:DES -pw:Som
     <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</projectSourceUrl>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpwalk-cli</packageSourceUrl>
     <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</docsUrl>
-    <bugTrackerUrl>https://support.ezfive.com/portal/en/kb</bugTrackerUrl>
+    <bugTrackerUrl>https://support.ezfive.com/portal/en/</bugTrackerUrl>
     </metadata>
 </package>
