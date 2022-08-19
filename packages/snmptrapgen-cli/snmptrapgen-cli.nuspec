@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>snmptrapgen-cli</id>
+    <version>1.02</version>
+    <title>SnmpTrapGen CLI</title>
+    <authors>boubou</authors>
+    <owners>EZ5 Systems Ltd</owners>
+    <licenseUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</licenseUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SNMP is a standard protocol for network devices monitoring and management. Almost all active network devices support SNMP. Besides that, SNMP is supported by many network applications and the majority of operational systems.
+
+SnmpTrapGen is a command-line tool that simplifies its use in scripts and allows you to automate a large number of everyday system administrator actions. This tool supports IPv4 and modern IPv6, allowing you to avoid difficulties when you upgrade network structures. Besides that, SnmpSet, along with supporting a version of the SNMPv1/SNMPv2c protocol which is not safe, supports safe version of SNMPv3. This allows you to avoid violations of corporate safety policies in case you use it.
+
+Features
+Supports SNMP v1/v2c and SNMPv3
+Supports IPv4 and IPv6
+Command line interface (CLI)
+Any type of SNMP variables
+Various Auth. Privacy protocols
+Windows XP-10 compatible
+Windows Server 2003-2019 compatible
+Parameters
+SnmpTrapGen.exe [-q] -r:host [-p:port] [-t:timeout] [-v:version]
+            [-c:community] [-ei:engine_id] [-sn:sec_name] [-ap:auth_proto]
+            [-aw:auth_passwd] [-pp:priv_proto] [-pw:priv_passwd] [-ce:cont_engine]
+            [-cn:cont_name] [-vid:var_oid] [-vtp:var_type] [-val:var_value]
+            [-del:char] -eo:ent_oid -to:trap_oid
+
+   -q                Quiet mode (suppress header; print variable value only)
+   -r:host           Name or network address (IPv4/IPv6) of remote host.
+   -p:port           SNMP port number on remote host. Default: 162
+   -t:timeout        SNMP timeout in seconds (1-600). Default: 5
+   -v:version        SNMP version. Supported version: 1, 2c or 3. Default: 1
+   -c:community      SNMP community string for SNMP v1/v2c. Default: public
+   -ei:engine_id     Engine ID. Format: hexadecimal string. (SNMPv3).
+   -sn:sec_name      SNMP security name for SNMPv3.
+   -ap:auth_proto    Authentication protocol. Supported: MD5, SHA (SNMPv3).
+   -aw:auth_passwd   Authentication password (SNMPv3).
+   -pp:priv_proto    Privacy protocol. Supported: DES, IDEA, AES128, AES192,
+                     AES256, 3DES (SNMPv3).
+   -pw:priv_passwd   Privacy password (SNMPv3).
+   -cn:cont_name     Context name. (SNMPv3)
+   -ce:cont_engine   Context engine. Format: hexadecimal string. (SNMPv3)
+   -to:trap_oid      Object ID (OID) of SNMP trap.
+   -eo:ent_oid       Enterprise Object ID (OID).
+   -vid:var_oid      Object IDs (OID) of one or multiple trap variables.
+   -val:var_value    Value of one or multiple trap variables.
+   -vtp:var_type     Type of trap variables. Supported: int,uint,str,hex,oid,ip
+                     Default: str
+   -del:char         Multiple variables delimiter for vid/vtp/val.
+Examples
+SnmpTrapGen.exe -r:10.0.0.1 -t:10 -c:"private" -to:.1.3.6.1.2.1.1.4.0
+SnmpTrapGen.exe -r:SnmpCollector -q -v:2c -p:10162 -to:.1.3.6.1.2.1.1.1.0</description>
+    <summary>SnmpWalk scans a device to list all variables that are available for reading.</summary>
+    <releaseNotes>https://ezfive.com/news/</releaseNotes>
+    <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
+    <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
+    <projectUrl>https://ezfive.com/</projectUrl>
+    <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmptrapgen-cli</packageSourceUrl>
+    <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</docsUrl>
+    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</bugTrackerUrl>
+    </metadata>
+</package>
