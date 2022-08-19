@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>snmpget-cli</id>
+    <version>1.01</version>
+    <title>SNMPGet CLI</title>
+    <authors>boubou</authors>
+    <owners>EZ5 Systems Ltd</owners>
+    <licenseUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</licenseUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SNMP is a standard protocol for network monitoring and network devices management. Almost all active network devices support SNMP. Moreover, SNMP is supported by the majority of operational systems and by many network applications.
+
+SnmpGet allows you to monitor networks using SNMP. Monitoring is realized by reading SNMP variables from a remote network device. The variables can be of various types and may represent a wide range of information, such as current parameters of the configuration, the status of operations execution, and information on possible errors and failures.
+
+The list of available variables depends on the network device itself or on the SNMP software. You can find the list of variables, available for reading in certain situations, with the help of a separate tool SnmpWalk. Some variables are available for writing. By changing their values with SnmpSet, you can change certain parameters of a network device configuration or perform some actions.
+
+SnmpGet it is a command-line tool. It is easy to use in scripts, which allow for the automation of much routine work of network administrators. This tool supports IPv4 as well as IPv6, so it will not cause any problems while you are upgrading your network infrastructure. Moreover, SnmpGet supports a regular version of the SNMPv1/SNMPv2c protocol and also a safer SNMPv3 which enables you to use this tool without risking the violation of corporate safety policies.
+
+Features
+Supports SNMP v1/v2c and SNMPv3
+Supports IPv4 and IPv6
+Command line interface (CLI)
+Any type of SNMP variables
+Various Auth. Privacy protocols
+Windows XP-10 compatible
+Windows Server 2003-2019 compatible
+Parameters
+SnmpGet.exe [-q] -r:host [-p:port] [-t:timeout] [-v:version] [-c:community]
+        [-ei:engine_id] [-sn:sec_name] [-ap:auth_proto] [-aw:auth_passwd]
+        [-pp:priv_proto] [-pw:priv_passwd] [-cn:cont_name] [-ce:cont_engine]
+        -o:var_oid
+
+   -q               Quiet mode.
+   -r:host          Name or network address (IPv4/IPv6) of remote host.
+   -p:port          SNMP port number on remote host. Default: 161
+   -t:timeout       SNMP timeout in seconds (1-600). Default: 5
+   -v:version       SNMP version. Supported version: 1, 2c or 3. Default: 1
+   -c:community     SNMP community string for SNMP v1/v2c. Default: public
+   -sn:sec_name     SNMP security name for SNMPv3.
+   -ap:auth_proto   Authentication protocol. Supported: MD5, SHA (SNMPv3).
+   -aw:auth_passwd  Authentication password (SNMPv3).
+   -pp:priv_proto   Privacy protocol. Supported: DES, IDEA, AES128, AES192,
+                    AES256, 3DES (SNMPv3).
+   -pw:priv_passwd  Privacy password (SNMPv3).
+   -ei:engine_id    Engine ID. Format: hexadecimal string. (SNMPv3).
+   -cn:cont_name    Context name. (SNMPv3)
+   -ce:cont_engine  Context engine. Format: hexadecimal string. (SNMPv3)
+   -o:var_oid       Object ID (OID) of SNMP variable to GET.
+Examples
+SnmpGet.exe -r:10.0.0.1 -t:10 -c:"admin_rw" -o:.1.3.6.1.2.1.1.4.0
+SnmpGet.exe -r:MainRouter -q -v:2c -p:10161 -o:.1.3.6.1.2.1.1.1.0
+SnmpGet.exe -r:"::1" -v:3 -sn:SomeName -ap:MD5 -aw:SomeAuthPass -pp:DES -pw:SomePrivPass
+             -o:.1.3.6.1.2.1.1.8.0</description>
+    <summary>SnmpGet reads values of SNMP variables from any network equipment.</summary>
+    <releaseNotes>https://ezfive.com/news/</releaseNotes>
+    <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
+    <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
+    <projectUrl>https://ezfive.com/</projectUrl>
+    <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpget-cli</packageSourceUrl>
+    <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</docsUrl>
+    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</bugTrackerUrl>
+    </metadata>
+</package>

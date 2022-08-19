@@ -4,8 +4,8 @@ $toolsDir =  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
     PackageName    = $packageName
-    Url64          = 'https://github.com/enzo1982/freac/releases/download/v1.1.2/freac-1.1.2b-windows-x64.zip'
-    Checksum64     = '6B0363CE216DF714E243DD4780C96357C4D95A4CF79F167DF287DB041C393DB3'
+    Url64          = 'https://dl.ezfive.com/snmpsoft-tools/SnmpGet.zip'
+    Checksum64     = 'E344A51AFEF85E338AD00CFA66958BED51E879007AFEB9A53170D893290AB602'
     ChecksumType64 = 'sha256'
     UnzipLocation  = $toolsDir
 }
