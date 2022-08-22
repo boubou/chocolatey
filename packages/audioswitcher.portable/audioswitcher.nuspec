@@ -5,8 +5,8 @@
     <version>1.8.0.142</version>
     <title>Audioswitcher</title>
     <authors>boubou</authors>
-    <owners>EZ5 Systems Ltd</owners>
-    <licenseUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</licenseUrl>
+    <owners>2022 - Forty One Limited</owners>
+    <licenseUrl>https://audioswit.ch/er</licenseUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>What is Audio Switcher?
@@ -18,13 +18,13 @@ The beautiful part of Audio Switcher is it's simplicity. It doesn't try to do to
 
 Audio Switcher is developed by @xenolightning, entirely in my spare time. Continued development is spurred on by the users, if you have any feedback, feel free to contact me.</description>
     <summary>Switch between playback and recording devices without opening Control Panel</summary>
-    <releaseNotes>https://ezfive.com/news/</releaseNotes>
+    <releaseNotes>https://github.com/xenolightning/AudioSwitcher_v1/releases</releaseNotes>
     <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
     <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
-    <projectUrl>https://ezfive.com/</projectUrl>
-    <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</projectSourceUrl>
-    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpwalk-cli</packageSourceUrl>
-    <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</docsUrl>
-    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/</bugTrackerUrl>
+    <projectUrl>https://audioswit.ch/er</projectUrl>
+    <projectSourceUrl>https://github.com/xenolightning/AudioSwitcher_v1/archive/refs/tags/1.8.0.142.zip</projectSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/audioswitcher.portable</packageSourceUrl>
+    <docsUrl>https://audioswit.ch/er</docsUrl>
+    <bugTrackerUrl>https://github.com/xenolightning/AudioSwitcher_v1/issues</bugTrackerUrl>
     </metadata>
 </package>
