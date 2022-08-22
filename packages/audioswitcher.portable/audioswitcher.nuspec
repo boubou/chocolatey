@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Audioswitcher.portable</id>
+    <version>1.8.0.142</version>
+    <title>Audioswitcher</title>
+    <authors>boubou</authors>
+    <owners>EZ5 Systems Ltd</owners>
+    <licenseUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</licenseUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>What is Audio Switcher?
+Audio Switcher is a 100% free, and Open Source application for Windows® Vista, 7, and 8.
+
+Audio Switcher makes switching between sound devices trivial. No longer do you have to go into Control Panel or the Windows® Sound options, instead there is an easy to access icon, or even hotkeys.
+
+The beautiful part of Audio Switcher is it's simplicity. It doesn't try to do too much, it does exactly what is needed; nothing more, nothing less.
+
+Audio Switcher is developed by @xenolightning, entirely in my spare time. Continued development is spurred on by the users, if you have any feedback, feel free to contact me.</description>
+    <summary>Switch between playback and recording devices without opening Control Panel</summary>
+    <releaseNotes>https://ezfive.com/news/</releaseNotes>
+    <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
+    <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
+    <projectUrl>https://ezfive.com/</projectUrl>
+    <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpwalk-cli</packageSourceUrl>
+    <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-walk/</docsUrl>
+    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/</bugTrackerUrl>
+    </metadata>
+</package>
