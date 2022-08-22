@@ -7,7 +7,7 @@
     <authors>boubou</authors>
     <owners>2022 - Forty One Limited</owners>
     <licenseUrl>https://audioswit.ch/er</licenseUrl>
-    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/851753c2b5ee9385e4ed27c7724690f64e8e9afd/packages/icons/snmpsoft-tools.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/cf183f7016d595fefc9177851bec0cd514b5115c/packages/icons/audioswitcher.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>What is Audio Switcher?
 Audio Switcher is a 100% free, and Open Source application for Windows® Vista, 7, and 8.
@@ -20,7 +20,7 @@ Audio Switcher is developed by @xenolightning, entirely in my spare time. Contin
     <summary>Switch between playback and recording devices without opening Control Panel</summary>
     <releaseNotes>https://github.com/xenolightning/AudioSwitcher_v1/releases</releaseNotes>
     <copyright>Copyright © 2007-2022 EZ5 Systems Ltd., All Rights Reserved.</copyright>
-    <tags>snmp snmpget snmpset snmptrapgen snmpwalk</tags>
+    <tags>audio switcher audioswitcher</tags>
     <projectUrl>https://audioswit.ch/er</projectUrl>
     <projectSourceUrl>https://github.com/xenolightning/AudioSwitcher_v1/archive/refs/tags/1.8.0.142.zip</projectSourceUrl>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/audioswitcher.portable</packageSourceUrl>
