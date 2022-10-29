@@ -60,6 +60,6 @@ SnmpGet.exe -r:"::1" -v:3 -sn:SomeName -ap:MD5 -aw:SomeAuthPass -pp:DES -pw:Some
     <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</projectSourceUrl>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmpget-cli</packageSourceUrl>
     <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</docsUrl>
-    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/snmp-get/</bugTrackerUrl>
+    <bugTrackerUrl>https://support.ezfive.com/portal/en/newticket</bugTrackerUrl>
     </metadata>
 </package>
