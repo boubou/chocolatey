@@ -61,6 +61,6 @@ SnmpTrapGen.exe -r:SnmpCollector -q -v:2c -p:10162 -to:.1.3.6.1.2.1.1.1.0</descr
     <projectSourceUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</projectSourceUrl>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/snmptrapgen-cli</packageSourceUrl>
     <docsUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</docsUrl>
-    <bugTrackerUrl>https://ezfive.com/snmpsoft-tools/snmp-trap-gen/</bugTrackerUrl>
+    <bugTrackerUrl>https://support.ezfive.com/portal/en/newticket</bugTrackerUrl>
     </metadata>
 </package>
