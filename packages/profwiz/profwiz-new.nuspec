@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>profwiz</id>
-    <version>3.24</version>
+    <version>3.24.20221218</version>
     <title>User Profile Wizard Release 24</title>
-    <authors>ForensiT Ltd</authors>
+    <authors>Forensit</authors>
     <owners>boubou</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.forensit.com/Downloads/User%20Profile%20Wizard%20Corporate%20User%20Guide.pdf</docsUrl>
@@ -56,7 +56,7 @@ To further enhance what can be done with scripting, Profwiz.exe supports a new /
 Where are you going with this?
 Our intention now is to concentrate on command-line migrations using PowerShell. Depending on your feedback User Profile Wizard may become a command-line only tool in future.
     </releaseNotes>
-    <copyright>Copyright 2020 ForensiT Ltd All rights reserved.</copyright>
+    <copyright>2020 ForensiT Ltd All rights reserved.</copyright>
     <tags>domain migration user profile wizard</tags>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/profwiz</packageSourceUrl>
   </metadata>
