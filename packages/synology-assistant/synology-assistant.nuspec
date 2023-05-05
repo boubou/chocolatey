@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>synology-assistant</id>
+    <version>7.0.4.50051</version>
+    <title>Synology Assistant</title>
+    <authors>Synology Inc.</authors>
+    <owners>boubou</owners>
+    <licenseUrl>https://www.synology.com/en-global/company/legal/terms_EULA</licenseUrl>
+    <projectUrl>https://www.synology.com/en-us/dsm/feature/synology_assistant</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Mr1BitL8r/Chocolatey-synology-note-station-client@main/synology-note-station-client/icon/synology-note-station-client.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Synology Note Station Client connects you with Note Station on your Synology NAS. You can manage all the notes/to-do list offline, right from your local computer.</description>
+    <summary>Client software to connect with Note Station on a Synology NAS.</summary>
+    <releaseNotes>https://www.synology.com/en-us/releaseNote/Assistant</releaseNotes>
+    <copyright>2023 Synology Inc.</copyright>
+    <tags>Synology Note Station NoteStation</tags>
+    <packageSourceUrl>https://github.com/Mr1BitL8r/Chocolatey-synology-note-station-client</packageSourceUrl>
+  </metadata>
+</package>
