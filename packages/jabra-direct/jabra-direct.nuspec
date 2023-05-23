@@ -6,6 +6,8 @@
     <title>Jabra Direct</title>
     <authors>Jabra</authors>
     <owners>boubou</owners>
+    <docsUrl>https://www.jabra.com/-/media/Files/Software-and-Services/Jabra-Direct/Jabra-Direct-Datasheet_01_2018.pdf?la=en</docsUrl>
+    <licenseUrl>https://www.jabra.ca/-/media/Files/Software-and-Services/Jabra-Direct/jabra_direct_nodemoduleslicenses.txt</licenseUrl>
     <projectUrl>https://www.jabra.com/software-and-services/jabra-direct</projectUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/bb7a59a2a73551f51314b0e94a9c97ac09bf5924/packages/icons/jabra-direct.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,6 +20,5 @@
     <releaseNotes>http://www.jabra.com/Support/release-notes/release-note-jabra-direct</releaseNotes>
     <tags>Jabra Call</tags>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/jabra-direct</packageSourceUrl>
-    <docsUrl>https://www.jabra.com/-/media/Files/Software-and-Services/Jabra-Direct/Jabra-Direct-Datasheet_01_2018.pdf?la=en</docsUrl>
-  </metadata>
+ </metadata>
 </package>
