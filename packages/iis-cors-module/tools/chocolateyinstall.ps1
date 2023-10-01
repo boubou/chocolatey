@@ -7,7 +7,7 @@ $packageArgs = @{
   softwareName  = 'IIS CORS Module'
   checksum 		= '8A0B60AF8435A266A67DD1DF713D380B6267376A0608203D8468A5792351BB24'
   checksumType  = 'sha256'
-  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
+  silentArgs    = "/qn /norestart"
   validExitCodes= @(0, 3010, 1641)
 }
 
