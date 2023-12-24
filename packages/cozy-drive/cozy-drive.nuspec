@@ -8,11 +8,11 @@
     <owners>boubou</owners>
     <licenseUrl>https://github.com/cozy/cozy-stack?tab=readme-ov-file</licenseUrl>
     <projectUrl>https://cozy.io/en/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/internxt/drive-desktop/8ab0c4b75e6a1d6ae5f0567579a934f562eab498/assets/icons/256x256.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/5354da5eaeed956347f34a79cab3d1526366d219/packages/icons/cozy.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cozy is a platform that brings all your web services in the same private space. With it, your web apps and your devices can share data easily, providing you with a new experience. You can install Cozy on your own hardware where no one profiles you.-</description>
-    <summary>The safest cloud storage for all your files, photos, and more.</summary>
-    <releaseNotes>[Release Notes](https://github.com/internxt/drive-desktop/blob/master-erb/CHANGELOG.md)</releaseNotes>
+    <summary>Import all your documents automatically. Bills, online purchases, phone, electricity, bank statements, health reinbursments, pay slips... Gather all your data stored by third party services without effort!</summary>
+    <releaseNotes>https://blog.cozy.io/en/product-update/</releaseNotes>
     <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
     <tags>windows macos linux cloud storage desktop cloud-storage</tags>
     <projectSourceUrl>https://github.com/cozy/cozy-stack</projectSourceUrl>
