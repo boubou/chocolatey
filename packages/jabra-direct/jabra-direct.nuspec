@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>jabra-direct</id>
-    <version>6.13.01801</version>
+    <version>6.14.08801</version>
     <title>Jabra Direct</title>
     <authors>Jabra</authors>
     <owners>boubou</owners>
