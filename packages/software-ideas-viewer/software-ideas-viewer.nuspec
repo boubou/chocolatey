@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>software-ideas-viewer</id>
-    <version>12.47</version>
+    <version>14.40</version>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/software-ideas-viewer</packageSourceUrl>
     <owners>boubou</owners>
     <title>Software Ideas Viewer</title>
     <authors>Dušan Rodina</authors>
     <projectUrl>https://www.softwareideas.net</projectUrl>
-    <copyright>(c) 2009-2020 Dušan Rodina</copyright>
+    <copyright>(c) 2009-2024 Dušan Rodina</copyright>
     <licenseUrl>https://www.softwareideas.net/en/about/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.softwareideas.net/en/help</docsUrl>
