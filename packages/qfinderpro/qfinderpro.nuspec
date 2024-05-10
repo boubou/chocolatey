@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>qfinderpro</id>
-    <version>7.9.1.0817</version>
+    <version>7.10.2.0125</version>
     <title>QFinder Pro (Install)</title>
     <authors>QNAP Systems</authors>
     <owners>boubou</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Qfinder Pro (available for Windows, Mac and Ubuntu) allows you to quickly find and easily access all of the QNAP NAS on the same LAN. The Windows version provides Storage "Plug and Connect" functionality, allowing the QNAP NAS to be used as a PC network drive or virtual disk for convenient data storage. You can also use the "Media Upload" feature to save NAS system resources by performing media file transcoding on your local PC before uploading them to the NAS. Chromebook users can download Qfinder Pro from the Chrome Web Store to enjoy seamless connectivity to the QNAP NAS.</description>
     <summary>QFinder Pro allows you to quickly find and easily access all of the QNAP NAS on the same LAN.</summary>
-    <copyright>Copyright 2020 QNAP Systems, Inc. All Rights Reserved.</copyright>
+    <copyright>Copyright 2024 QNAP Systems, Inc. All Rights Reserved.</copyright>
     <tags>qnap nas qsync sync synchronization file filesync</tags>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/qfinderpro</packageSourceUrl>
   </metadata>
