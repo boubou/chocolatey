@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>software-ideas-modeler.portable</id>
-    <version>12.71</version>
+    <version>14.40</version>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/software-ideas-modeler.portable</packageSourceUrl>
     <owners>boubou</owners>
     <title>Software Ideas Modeler.portable</title>
     <authors>Dušan Rodina</authors>
     <projectUrl>https://www.softwareideas.net</projectUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/84ab36d5930fdea13532751de6f253f5acca1721/packages/icons/software-ideas-modeler.png</iconUrl>
-    <copyright>(c) 2009-2020 Dušan Rodina</copyright>
+    <copyright>(c) 2009-2024 Dušan Rodina</copyright>
     <licenseUrl>https://www.softwareideas.net/en/about/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.softwareideas.net/en/help</docsUrl>
