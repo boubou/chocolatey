@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url        = 'https://www.sparxsystems.com/bin/easetup.msi'
+$url        = 'https://sparxsystems.com/bin/easetup_x86.msi'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'MSI'
