@@ -2,22 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>software-ideas-modeler</id>
-    <version>12.71</version>
+    <version>14.50</version>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/software-ideas-modeler</packageSourceUrl>
     <owners>boubou</owners>
     <title>Software Ideas Modeler</title>
     <authors>Dušan Rodina</authors>
     <projectUrl>https://www.softwareideas.net</projectUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/84ab36d5930fdea13532751de6f253f5acca1721/packages/icons/software-ideas-modeler.png</iconUrl>
-    <copyright>(c) 2009-2020 Dušan Rodina</copyright>
+    <copyright>(c) 2009-2024 Dušan Rodina</copyright>
     <licenseUrl>https://www.softwareideas.net/en/about/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.softwareideas.net/en/help</docsUrl>
     <bugTrackerUrl>https://www.softwareideas.net/en/requests</bugTrackerUrl>
     <tags>uml bpmn CASE diagram modeler modeling tool admin trial</tags>
     <summary>Agile CASE tool for software design and analysis</summary>
-    <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support.
-Thanks to Dušan, the author, for supporting this package.</description>
+    <description>Software Ideas Modeler is a smart CASE tool and diagram software that supports UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframing.</description>
     <releaseNotes>https://www.softwareideas.net/en/news</releaseNotes>
   </metadata>
   <files>
