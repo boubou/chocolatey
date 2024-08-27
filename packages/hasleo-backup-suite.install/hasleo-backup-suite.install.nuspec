@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>hasleobackupsuite</id>
+    <id>hasleo-backup-suite.install</id>
     <version>4.9</version>
     <title>Hasleo Backup Suite (Install)</title>
     <authors>Hasleo Software</authors>
@@ -17,7 +17,7 @@
 		If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).</description>
     <summary>Free Windows Backup Software</summary>
     <tags>hasleobackupsuite backup restore windowspe hasleo</tags>
-    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/hasleobackupsuite</packageSourceUrl>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/hasleo-backup-suite.install</packageSourceUrl>
     <docsUrl>https://www.easyuefi.com/backup-software/tutorial/backup-suite-user-guide.html</docsUrl>
     <bugTrackerUrl>https://www.easyuefi.com/forums/forumdisplay.php?fid=10</bugTrackerUrl>
   </metadata>
