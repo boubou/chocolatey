@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>cisco-packet-tracer.install</id>
+    <version>8.2.2</version>
+    <title>Cisco Packet Tracer</title>
+    <authors>Cisco</authors>
+    <owners>boubou</owners>
+    <docsUrl>https://tutorials.ptnetacad.net/</docsUrl>
+    <licenseUrl>https://www.netacad.com/netacad/tnc/netacad-terms-and-conditions-en.pdf</licenseUrl>
+    <projectUrl>https://www.netacad.com/learning-collections/cisco-packet-tracer?courseLang=en-US</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/f3926c9c4b5f3b61248fe3660d0bc2dd5626e471/packages/icons/cisco-packet-tracer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Practice Real Skills. Virtually.
+
+Deepen your understanding of how a network works, and step into the virtual lab to build your own! With Cisco Packet Tracer, you can watch how data travels across your network using Simulation Mode, or practice setting up your own device rack and cables in Physical Mode. Once you are ready, expand your simulations to analyze network traffic, add Internet of Things (IoT) devices, integrate Python code, or practice network automation skills. New to networking? No problem. Cisco Packet Tracer enables a suite of tutored activities that give you hints along the way, if you want them. Packet Tracer Tutored Activities are currently available for select courses.
+
+With over a million users across the globe, you will find a vibrant community to share network designs, ideas, and more. Best of all, it's free!</description>
+    <summary>Practice networking, IoT, and cybersecurity skills virtually with Cisco Packet Tracer, our powerful simulation and visualization tool. To download the latest version, enroll in our short Getting Started with Cisco Packet Tracer course today.</summary>
+    <releaseNotes>https://tutorials.ptnetacad.net/help/default/index.htm</releaseNotes>
+    <tags>cisco packet tracer</tags>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/jabra-direct</packageSourceUrl>
+ </metadata>
+</package>
