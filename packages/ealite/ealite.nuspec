@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ealite</id>
-    <version>16.1.1628.14</version>
+    <version>17.0.1703</version>
     <title>Enterprise Architect Viewer</title>
     <authors>Sparx Systems</authors>
     <owners>boubou</owners>

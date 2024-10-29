@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url        = 'https://sparxsystems.com/bin/easetup_x86.msi'
+$url        = 'https://sparxsystems.com/bin/ealite_x64.msi'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'MSI'
   url           = $url
   softwareName  = 'Enterprise Architect*'
-  checksum      = '7526FAB136DA31C18324771EAFFA805B12A8CE26B351FBD1DD999DA42F663760'
+  checksum      = '40D79241CDF58241DDDCD56838EFE11733DFC440053232867D7108D0DDD5D065'
   checksumType  = 'sha256'
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
