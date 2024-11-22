@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.pablosoftwaresolutions.com/download.php?id=1'
+$url        = 'https://www.pablosoftwaresolutions.com/files/babyftp.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
