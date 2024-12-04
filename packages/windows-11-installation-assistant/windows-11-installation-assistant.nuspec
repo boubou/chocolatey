@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>windows-11-installation-assistant</id>
-    <version>1.4.19041.1285</version>
+    <version>1.4.19041.5003</version>
     <title>Windows 11 Update Assistant (Portable)</title>
     <authors>Microsoft</authors>
     <owners>boubou</owners>
