@@ -9,64 +9,13 @@
     <projectUrl>https://www.microsoft.com/en-us/software-download/windows11</projectUrl>
     <iconUrl>https://raw.githack.com/boubou/chocolatey/master/packages/icons/windows-11-media-creation-tool.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Before you begin using the media creation tool
-To get started you first need a licence to install Windows 11 or have a Windows 10 device that qualifies for an upgrade to Windows 11.
-
-Make sure you have:
-
-
-An internet connection (internet service provider fees may apply).
-Sufficient data storage available on the computer, USB, or external drive you are downloading the .iso file to.
-A blank DVD disc with at least 8GB (and DVD burner) to create a bootable disc. We recommend using a blank USB or blank DVD, because any content on it will be deleted during installation.
-If you receive a “disc image file is too large” message while attempting to burn a DVD bootable disc from an ISO file, consider using a higher capacity Dual Layer DVD.
- 
-Ensure the PC you want to install Windows 11:
-
-
+    <description>Ensure the PC you want to install Windows 11:
 Has a 64-bit CPU: Windows 11 can only run on 64-bit CPUs. To see if your PC has one, go to Settings > System > About, or search “System Information” in Windows and look under “System Type.”
 Windows 11 Media Creation Tool creates installation media only for x64 processors. For Arm-based PCs, you should wait until you are notified through Windows Update that the upgrade is ready for your PC.
 Meets system requirements: Not all devices running Windows 10 are eligible to receive a Windows 11 upgrade. See the Note below with the link to: Windows 11 device specifications for upgrade requirements and supported features. Certain features required for additional hardware.
 WARNING: Installing Windows 11 media on a PC that does not meet the Windows 11 minimum system requirements is not recommended and may result in compatibility issues. If you proceed with installing Windows 11 on a PC that does not meet the requirements, that PC will no longer be supported and won't be entitled to receive updates. Damages to the PC due to lack of compatibility aren't covered under the manufacturer warranty.
-Matches your current language: You'll need to choose the same language when you install Windows 11. To see what language you're currently using, go to Time & language in PC settings or Region in the Control Panel.
-
-
-Note: See the Windows 11 device specifications for upgrade requirements and supported features. Certain features require additional hardware. We also recommend that you visit your PC’s manufacturer website for information about updated drivers and hardware compatibility.
-
-Using the Media Creation Tool to create installation media:
-
-After downloading, run the media creation tool. You need to be an administrator to run this tool.
-If you agree to the licence terms, selectAccept.
-On theWhat do you want to do?page, select Createinstallation media for another PC, and then selectNext.
-Select the language, edition, and architecture (64-bit) for Windows 11.
-Select which media you want to use:
-USB flash drive:Attach a blank USB flash drive with at least 8GB of space. Any content on the flash drive will be deleted.
-ISO file:Save an ISO file to your PC. This can be used to create a bootable DVD. After the file is downloaded, you can go to location where the file is saved, or selectOpen DVD burner, and follow the instructions to burn the file to a DVD.
- 
-
-After the installation media is created, follow the steps below to use it.
-
-
-To check for updates now, select the Start button, and then go to Settings > Windows Update, and select Check for updates. You may also wish to visit your device manufacturer’s support site for any additional drivers that may be needed.
-
-
-Note: Drivers for Surface devices may be found on theDownload drivers and firmware for Surfacepage.
-
-Before you install Windows 11, it’s a good idea to save any work and back up your PC before you start. If you used the Media Creation Tool to download an ISO file for Windows 11, remember to burn it to a DVD before following these steps:
-
-
-Attach the USB flash drive or insert the DVD on the PC where you want to install Windows 11.
-Restart your PC.
-If your PC does not automatically boot to the USB or DVD media, you might have to open a boot menu or change the boot order in your PC's BIOS or UEFI settings. 
-To open a boot menu or change the boot order, you'll typically need to press a key (such as F2, F12, Delete, or Esc) immediately after you turn on your PC. For instructions on accessing the boot menu or changing the boot order for your PC, check the documentation that came with your PC or go to the manufacturer's website.
-If you do not see the USB or DVD media device listed within the boot options, you may need to reach out to the PC manufacturer for instructions for temporarily disabling Secure Boot in your BIOS settings.
-If changing the boot menu or order doesn't work, and your PC immediately boots into the OS you want to replace, it is possible the PC had not fully shut down. To ensure the PC fully shuts down, select the power button on the sign-in screen or on the Start menu and select Shut down.
-On theInstall Windowspage, select your language, time, and keyboard preferences, and then selectNext.
-SelectInstall Windows.
- 
-
-Important Note: If you made changes to the boot order in step 2, you may face a scenario where the initial Install Windows page will display after the installation process is complete. To resolve this, you will need to revert the changes you made to the boot order. This ensures that the internal drive you just installed Windows on will boot normally.</description>
+Matches your current language: You'll need to choose the same language when you install Windows 11. To see what language you're currently using, go to Time  language in PC settings or Region in the Control Panel.</description>
     <summary>If you want to perform a reinstall or clean install of Windows 11 on a new or used PC, use this option to download the media creation tool to make a bootable USB or DVD.
-
 Note: Windows 11 media creation tool cannot be used to create installation media for Arm-based PCs; it can only create media for x64 processors.</summary>
     <copyright>Microsoft</copyright>
     <tags>portable windows11 media-creation-tool freeware</tags>
