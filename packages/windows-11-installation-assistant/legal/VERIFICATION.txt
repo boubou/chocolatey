@@ -6,5 +6,8 @@ Take the exe file here
 https://download.microsoft.com/download/3/a/9/3a9e2fe1-96e7-4514-8744-f3a9731f91c7/Windows11InstallationAssistant.exe
 
 The checksum will be
-$ checksum.exe -t sha256 -f Windows11InstallationAssistant.exe
-9D04E6C0EEF448763AD50BF094C8076F4CE6673A83232FB200355F20F77F021A
+Get-FileHash .\Windows11InstallationAssistant.exe -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          188698D10B1F7B9710061EC95E0AEC55A0CB2239E622FA4F7FDD5D360D00A007
