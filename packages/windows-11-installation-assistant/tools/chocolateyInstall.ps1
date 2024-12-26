@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+﻿#$ErrorActionPreference = 'Stop'
 $exeName = "Windows11InstallationAssistant.exe"
 
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
