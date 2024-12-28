@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>hpimageassistant</id>
+    <version>5.3.1</version>
+    <title>HP Image Assistant</title>
+    <authors>HP</authors>
+    <owners>boubou</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://support.hp.com/us-en/document/c00581401</licenseUrl>
+    <projectUrl>https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html</projectUrl>
+    <iconUrl>https://raw.githack.com/boubou/chocolatey/master/packages/icons/hpimageassistant.png</iconUrl>
+    <description>The HP Image Assistant is an essential tool that provides assistance to IT System Administrators to improve the quality and security of their HP PCs running Microsoft Windows by analyzing, identifying problems, and recommending solutions</description>
+    <summary>HP Image Assistant</summary>
+    <releaseNotes>https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html</releaseNotes>
+    <tags>hp device driver update</tags>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/hpimageassistant</packageSourceUrl>
+    <docsUrl>https://ftp.hp.com/pub/caps-softpaq/cmit/whitepapers/HPIAUserGuide.pdf</docsUrl>
+  </metadata>
+</package>
