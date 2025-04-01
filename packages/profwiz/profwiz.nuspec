@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>profwiz</id>
-    <version>24.6.1293</version>
+    <version>24.7.1294</version>
     <title>User Profile Wizard Release 24</title>
     <authors>Forensit</authors>
     <owners>boubou</owners>
