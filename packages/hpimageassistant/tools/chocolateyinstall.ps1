@@ -4,8 +4,8 @@ $toolsDir =  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
     PackageName    = $packageName
-    Url64          = 'https://hpia.hpcloud.hp.com/downloads/hpia/hp-hpia-5.3.1.exe'
-    Checksum64     = 'F6EC10F8185F445877116CE3E6E0FE55F746F98670762EBCF53DB301250F7887'
+    Url64          = 'https://hpia.hpcloud.hp.com/downloads/hpia/hp-hpia-5.3.2.exe'
+    Checksum64     = 'E1B8214B0C0B3B6B4C37181CAC1914B4E16FA60E6B063A7F76A1D7A96908E1F0'
     ChecksumType64 = 'sha256'
     UnzipLocation  = $toolsDir
 }
