@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gmkvextractgui</id>
-    <version>2.8.0</version>
+    <version>2.10.0</version>
     <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/gmkvextractgui</packageSourceUrl>
     <owners>boubou</owners>
     <title>gMKVExtractGUI</title>
     <authors>gpower2</authors>
     <projectUrl>https://sourceforge.net/projects/gmkvextractgui/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/e8305a826b9360092ef03e1d5420824b354d1c49/packages/icons/mkvtoolnix.png</iconUrl>
-    <projectSourceUrl>https://sourceforge.net/p/gmkvextractgui/code</projectSourceUrl>
+    <projectSourceUrl>https://github.com/Gpower2/gMKVExtractGUI/</projectSourceUrl>
     <bugTrackerUrl>http://forum.doom9.org/showthread.php?t=170249</bugTrackerUrl>
     <tags>mkv mkvtoolnix media video splitter demuxing matroska foss</tags>
     <summary>gMKVExtractGUI is a GUI for mkvextract utility (part of MKVToolnix) which incorporates most functionality of mkvextract and mkvinfo utilities.</summary>
@@ -22,7 +22,7 @@
 * Incorporate a job mode for batch extracting
 * Support Linux through MONO
 * Support all MKVToolnix versions from v4.x and newer</description>
-    <releaseNotes>http://forum.doom9.org/showthread.php?t=170249</releaseNotes>
+    <releaseNotes>https://github.com/Gpower2/gMKVExtractGUI/releases</releaseNotes>
     <dependencies>
       <dependency id="mkvtoolnix" version="9.4.0"/>
     </dependencies>
