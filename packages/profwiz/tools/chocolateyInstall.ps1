@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'MSI'
   url           = $url
   softwareName  = 'Profwiz*'
-  checksum      = 'E12DFA8E694F9AC7FC6AB5B50598ECD322B771949F955DCBC52ED3A17D466FFB'
+  checksum      = 'C93EB6C1DC1CC2B668E3651964E6DE73458871243999AD399D4247772DA0427B'
   checksumType  = 'sha256'
 
 }
