@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $url64       = 'https://nuts.cozycloud.cc/download/channel/stable/win'
-$checksum64  = 'FFF738EB8C4A3E0314D58474669B99FA6D9EE3AEDC37D91744B6E403AB128ADD'
+$checksum64  = '994AE46B5D63AF17D31B89B7C2B0E7262494C141551C547E920CD81CC622F1A2'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
