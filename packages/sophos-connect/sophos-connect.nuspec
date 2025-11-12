@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>sophos-connect</id>
+    <version>2.5.0146.0918</version>
+    <title>Sophos Connect</title>
+    <authors>Sophos Ltd</authors>
+    <owners>boubou</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://docs.sophos.com/nsg/sophos-firewall/21.5/Help/en-us/webhelp/onlinehelp/AdministratorHelp/RemoteAccessVPN/IPsecSSL/SophosConnect/index.html</docsUrl>
+    <licenseUrl>https://support.sophos.com/support/s/article/KBA-000003568?language=en_US</licenseUrl>
+    <projectUrl>https://support.sophos.com/support/s/?language=en_US</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/640fd9cfca09d59899fa006ad5fc81ca392c0c00/packages/icons/sophos-connect.png</iconUrl>
+    <description>Sophos Connect is an advanced IPsec VPN and SSLVPN client, available for Windows and Mac.</description>
+    <summary>IPSec and SSLVPN Client</summary>
+    <releaseNotes>https://community.sophos.com/sophos-xg-firewall/b/blog/archive/tags/Sophos%2bConnect</releaseNotes>
+    <copyright>Copyright 1997-2025 Sophos Ltd. All Rights Reserved.</copyright>
+    <tags>sophos connect ipsec client sslvpn client</tags>
+    <packageSourceUrl>https://github.com/boubou/chocolatey/tree/master/packages/sophos-connect</packageSourceUrl>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
