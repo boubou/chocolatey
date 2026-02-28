@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kingston-ssd-manager</id>
-    <version>1.1.2.6</version>
+    <version>1.5.6.1</version>
     <title>Kingston SSD Manager (Install)</title>
     <authors>Kingston Technology Corporation</authors>
     <owners>galeksandrp</owners>
