@@ -1,15 +1,15 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kingston-ssd-manager</id>
-    <version>1.5.6.1</version>
+    <version>1.5.6.3</version>
     <title>Kingston SSD Manager (Install)</title>
     <authors>Kingston Technology Corporation</authors>
     <owners>galeksandrp</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://www.kingston.com/company/privacy</licenseUrl>
     <projectUrl>https://www.kingston.com/support/technical/ssdmanager</projectUrl>
     <iconUrl>https://rawcdn.githack.com/boubou/chocolatey/37cae12e24bfb11948b136383117a6505545b427/packages/icons/kingston-technology-company.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Kingston® SSD Manager is an application that provides users with the ability to monitor and manage various aspects of their Kingston® Solid State Drive.
 
 With Kingston® SSD Manager you will be able to:
